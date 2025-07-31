@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  flex: 1;
+}
+
+.toggleMenu {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+#h1 {
+  font-size: 5em;
+}
+
+.toggle-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 3em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ccd5ae;
+  transition: border-color 0.25s;
+}
+
+.toggle-button:hover {
+  border-color: #809bce;
+}
+
+.toggle-button:focus,
+.toggle-button:focus-visible {
+  outline: 4px solid #809bce;
+}
+
+.toggle-button.active {
+  outline: 2px solid #809bce;
+  border-color: #809bce;
+}
+
+.toggleCount {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.play-button {
+  margin-top: 3em;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 3em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #e39e81;
+  transition: border-color 0.25s;
+}
+
+.play-button:hover {
+  border-color: #809bce ;
+}
